@@ -185,8 +185,11 @@
     margin-bottom: 20px;
     line-height: 1.5em;
 }
-.read-more-btn{
-    display: inline;
+.blog-content{
+    flex: 1 1 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 /* Instagram styles */
 .instagram-section{
