@@ -184,3 +184,26 @@
 .newsletter-btn{
     border: none;
 }
+/* footer styles */
+footer{
+    background-color: #111010;
+    padding: 110px 0;
+}
+.footer-container{
+    width: 32.55%;
+    margin: 0 auto;
+}
+.footer-logo{
+    color: #ffffff;
+    font-size: 2.5vw;
+    margin-bottom: 25px;
+}
+.footer-text{
+    color: #FFFFFFE5;
+    margin-bottom: 35px;
+}
+.copyright-text{
+    color: #FFFFFF66;
+    font-size: 16px;
+    font-weight: 400;
+}
