@@ -32,6 +32,11 @@
     display: inline-block;
     font-size: 1.0416vw;
 }
+.title-text{
+    color: #272727;
+    font-size: 2.083vw;
+    margin-bottom: 20px;
+}
 
 /* banner section styles */
 .main-title{
@@ -60,11 +65,6 @@
 .featured-text-container{
     width: 500px;
     margin: 20px auto;
-}
-.title-text{
-    color: #272727;
-    font-size: 2.083vw;
-    margin-bottom: 20px;
 }
 .feat-box img{
     width: 100%;
@@ -104,4 +104,47 @@
     font-size: 2.083vw;
     text-decoration: underline;
     cursor: pointer;
+}
+/* Highlight styles */
+.highlights-container{
+    background-color: #2727270D;
+    padding: 40px 0;
+}
+.highlight-box{
+    flex: 1 1 0px;
+    padding: 30px;
+    flex-direction: column;
+}
+.highlight-box img{
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+.highlight-text{
+    font-size: 1.25vw;
+    color: #272727CC;
+}
+/* Hot Deal styles */
+.hotdeal-section{
+    background-color: #E554730D;
+    margin-top: 100px;
+}
+.brand-color{
+    color: #E55473;
+}
+.signup-btn{
+    display: inline-block;
+    text-align: center;
+}
+.hotdeal-text{
+    width: 50%;
+    margin: 20px auto;
+}
+.hotdeal-text-container{
+    flex-grow: 1;
+}
+.hotdeal-img-container{
+    padding: 80px 0;
+}
+.hotdeal-img-container img{
+    width: 100%;
 }
