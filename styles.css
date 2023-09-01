@@ -148,6 +148,46 @@
 .hotdeal-img-container img{
     width: 100%;
 }
+/* Blog style */
+.blog-section{
+    margin: 100px 0;
+}
+.blog-item{
+    flex: 1 1 0;
+    padding: 20px;
+    border: 1px solid #00000026;
+    border-radius: 8px;
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.blog-container{
+    gap:25px;
+    align-items: flex-start;
+}
+.blog-img img{
+    width: 100%;
+    border-radius: 8px;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+.blog-title{
+    color: #111010;
+    font-size: 1.3vw;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.blog-excerpt{
+    color: #272727b3;
+    font-size: 16px;
+    margin-bottom: 20px;
+    line-height: 1.5em;
+}
+.read-more-btn{
+    display: inline;
+}
 /* Instagram styles */
 .instagram-section{
     margin: 100px 0;
